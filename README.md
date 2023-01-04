@@ -1,2 +1,0 @@
-# sofiaa
-demo blog website
