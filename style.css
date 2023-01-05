@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(230, 230, 154);
+    margin: 0 auto;
+}
+
+
+.main-wrap{
+    width: 100%;
+}
+
+.wrap{
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.header-bg{
+    background-color: orange;
+    border-bottom: 5px solid gray;
+
+}
+.header{
+    background-color: orange;
+    padding: 15px;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    
+}
+
+.header h2{
+    color: white;
+    font-family: Playfair Display;
+    cursor: pointer;
+}
+
+
+
+.header p{
+    color: gray;
+    font-family: Playfair Display;
+    cursor: pointer;
+}
+
+
+
+.nav-bg{
+ background: #fff;
+ border-bottom: 5px solid gray;
+}
+
+
+.nav{
+    background-color: white;
+    height: 38px;
+    
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+}
+.nav ul{
+    list-style-type: none;
+    background-color: white;
+}
+.nav ul li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+.nav ul li:last-child{
+    border:none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 19px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav ul li a:hover{
+    color: gray;
+}
+
+
+.nav ul li{
+    position: relative;
+
+}
+
+.nav ul li ul{
+    position: absolute;
+    left: -9999px;
+    background-color: white;
+}
+
+.nav ul li:hover ul{
+    left: 0;
+}
+
+.nav ul li ul li :first-child {
+    border-top: 5px solid gray;
+}
+.nav ul li ul li{
+    float: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 100px;
+}
+
+.slide-bg{
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    background:rgb(230, 230, 154);
+}
+
+.content_wrapper{
+    background-color: white;
+    border-top: 5px solid gray;
+    padding: 10px;
+   overflow: hidden;
+}
+
+.content{
+    width: 620px;
+    margin-right: 20px;
+    float: left;
+}
+
+
+.asisde{
+    float: right;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide img{
+    width: 960px;
+    vertical-align: middle;
+}
